@@ -4,17 +4,17 @@ while(x < 5){
     x = x + 1 // increment x by 1
 }
 
-console.log ("---------------------")
+console.log ("==================================")
 
-let userNumber = prompt("Type a number")
-counter = 0
+//let userNumber = prompt("Type a number")
+//counter = 0
 
-while(counter < userNumber){
-    console.log("counter is currently", counter)
-    //counter = counter + 1 // increment by 1
-    counter += 1 //shorthand method for incrementing by 1
-
-}
+//while(counter < userNumber){
+//   console.log("counter is currently", counter)
+//    //counter = counter + 1 // increment by 1
+//   //counter += 1 //shorthand method for incrementing by whatever number is on the right
+//  counter++ //shorthand method for incrementing by 1
+//}
 
 
 // for loop
@@ -22,6 +22,11 @@ while(counter < userNumber){
 for(i = 0; i < 7; i++){
     console.log("i is currently", i)
 }
+
+
+console.log("===============================")
+
+
 
 // do  while loop
 // this loop guarentees at least one iteration
