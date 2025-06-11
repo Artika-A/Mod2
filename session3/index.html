@@ -9,20 +9,38 @@
             color: purple;
         }
     </style>
-    <link rel="javascript" href="basic_script.js">
+    <link rel="javascript" href="basic_script.js"> 
+    <!-- cannot use LINK to link javascript / use LINK for CSS -->
+
 </head>
 <!--Inline, Internal, External-->
 <body>
-    <button onclick="buttonClick()">Click me</button>
+    <form>
+        <input id="usernameInput" type="text" placeholder="Enter your Username" required>
+        <input id="passwordInput" type="password" placeholder="Enter your Password" required>
+        <button type="submit" onclick="submitForm()">submit</button>
+    </form>
     <script>
-        function buttonClick() {
-            console.log('Hello World');
-            console.log('Hello World2');
+        function submitForm(){
+            let usernameInput = document.getElementById("usernameInput")
+            let passwordInput =document.getElementById("passwordInput")
+            //alert("Form has been submitted")
+            console.log(usernameInput.value)
+            console.log(passwordInput.value)
         }
     </script>
+    <!-- <button onclick="buttonClick()">Click me</button> -->
+    <!-- <script> -->
+        <!-- function buttonClick() { -->
+            <!-- console.log('Hello World'); -->
+            <!-- console.log('Hello World2'); -->
+        <!-- } -->
+    <!-- </script> -->
 
-    <script src="basic_script.js"></script> 
-    <script src="conditional.js"></script>
-    <script src="loops.js"></script>
+<!-- use SCRIPT SRC to link javascript -->
+ 
+    <!-- <script src="basic_script.js"></script>  -->
+    <!-- <script src="conditional.js"></script> -->
+    <!-- <script src="loops.js"></script>  -->
 </body>
 </html>

@@ -13,10 +13,11 @@ console.log((7 + 3) * 10)
 
 let seven = 7
 let three = 3
-console.log(("seven" + "three")* 10)
+console.log((seven + three)* 10)
+// but if we put "", the result will be NaN (NotaNumber) --e.g console.log(("seven" + "three")* 10)
 
 let banana = "hello"
-let mango = "Mango"
+let mango = " Mango"
 console.log(banana + mango)
 
 let one ="1"
@@ -40,8 +41,9 @@ console.log("------------------------")
 // [] square bracket
 //() round bracket
 // <> angle bracket
-//{} curly bracket
+//{} curly bracket (Braces)
 
 let anArray = [10, 9, 8, 7, 6, "Hello", true, 3.1412, true, false, true, true]
 console.log("Length of anArray", anArray.length)
-console.log("Length item of anArray", anArray[anArray.length - 1])
+console.log("Last item of anArray", anArray[anArray.length - 1])
+// position always 1 less than length

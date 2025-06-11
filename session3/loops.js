@@ -1,5 +1,5 @@
 x = 0
-while(x < 5){
+while(x <= 5){
     console.log("x is currently", x)
     x = x + 1 // increment x by 1
 }
@@ -19,7 +19,7 @@ console.log ("==================================")
 
 // for loop
 
-for(i = 0; i < 7; i++){
+for(i = 0; i <= 7; i++){
     console.log("i is currently", i)
 }
 
@@ -31,8 +31,15 @@ console.log("===============================")
 // do  while loop
 // this loop guarentees at least one iteration
 
-let y = 0
+let y = 10
 do{
     console.log("y is currently", y)
     y++
 }while(y < 4)
+
+
+let z = 0
+do{
+    console.log("z is currently", z)
+    z++
+}while(z < 5)

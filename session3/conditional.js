@@ -11,7 +11,10 @@ if (x < 10){
     console.log("x is larger than 10")
 }
 
-console.log(x ==10)
+console.log(x == 10) 
+
+// == is to check if the value on right is same or equal with value on the left
+// === to check value and type
 
 if(5 != 1){
     console.log("Statement is true")
@@ -43,7 +46,7 @@ y = 10
 if(x < 7 && y > 8){
     console.log("x is smaller than 7 and y is larger than 8")
 }else{
-    console.log("x is smaller than 7 and y is not larger than 8")
+    console.log("x is not smaller than 7 OR y is not larger than 8")
 }
 
 // to declare variable use :-
