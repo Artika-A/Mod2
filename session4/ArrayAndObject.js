@@ -6,10 +6,10 @@ let fruits = ["Grapes", "Strawberry","Pear","Apple"]
 //console.log(fruits[fruits.length - 1])
 
 //push - add an element at the end of the array
-//fruits("Orange")
+//fruits.push("Orange")
 
 //after push
-//console.log(fruits.length[fruits.length] - 1)
+//console.log(fruits[fruits.length] - 1)
 
 //pop - remove the last element from the array
 //fruits.pop()
@@ -18,10 +18,13 @@ let fruits = ["Grapes", "Strawberry","Pear","Apple"]
 //console.log(fruits[fruits.length - 1])
 
 //splice- remove element at position followed by movement to the right
-//fruits.splice(0, 1)
+//fruits.splice(0, 1) / 0 refer to position and 1 refer to how many item you wanna remove
 
 //after splice
 //console.log(fruits)
+
+// Quick exercise - format this i nice string
+// fruit at position 1 is "fruit"
 
 //fruits.forEach(function(fruit, i){
     //console.log(fruit)
@@ -30,10 +33,10 @@ let fruits = ["Grapes", "Strawberry","Pear","Apple"]
 
 fruits.forEach(function(fruit, i){
     console.log("fruit at position", i, "is", fruit)
-   
+
 })
 
-for(let [i, fruit] of fruits.entries){
+for(let [i, fruit] of fruits.entries()){
     console.log(fruit)
 }
 
