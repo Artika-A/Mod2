@@ -9,7 +9,11 @@ greet("Artika")
 
 //2. toCelsius(fahrenheit) – converts Fahrenheit to Celsius
 
+function toCelsius(fahrenheit){
+    return (fahrenheit - 32) * 5 / 9;
+}
 
+console.log(toCelsius(98.6))
 
 
 
@@ -23,9 +27,10 @@ console.log(isAdult(18))
 
 
 //4. randomBetween(min, max) – returns a random number between min and max
+// Math.random() method to generate a random number.
 
 function randomBetween(min, max){
     return Math.random() * (max - min) + min;
 }
 
-console.log(randomBetween(1,10))
+console.log(randomBetween(10,30))

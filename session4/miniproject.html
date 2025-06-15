@@ -25,16 +25,22 @@
 
 <body>
 <div class="container">
-  <h2>Tip Calculator</h2>
-  <label>Bill Amount (RM):</label>
-  <input type="number" id="billInput">
- 
-  <label>Tip Percentage (%):</label>
-  <input type="number" id="tipInput">
- 
-  <button id="calculateBtn">Calculate</button>
- 
-  <p id="result"></p>
+    <h2>Tip Calculator</h2>
+    <label>Bill Amount (RM):</label>
+    <input type="number" id="billInput">
+  
+    <label>Tip Percentage (%):</label>
+    <!-- <input type="number" id="tipInput"> -->
+    <select  name = "tipSelect" id = "tipSelect">
+      <option value="5">5%</option>
+      <option value="10">10%</option>
+      <option value="15">15%</option>
+    </select>
+  
+    <button id="calculateBtn">Calculate</button>
+
+  
+    <p id="result"></p>
 </div>
 
   <script src ="miniproject.js"></script>
